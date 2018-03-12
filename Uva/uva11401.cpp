@@ -12,7 +12,8 @@ int main(){
 			C[i][j]=(C[i-1][j]+C[i-1][j-1])%Mod;
 	}
 	
-	int t,kase=1;
+	int t;
+	int kase=1;
 	cin>>t;
 	while(t--){
 		int n,m,k,sum=0;
