@@ -5,7 +5,7 @@ int dp[100010];
 int main()
 {
     int n,i,t;
-    int s=1;
+    int kase=1;
     scanf("%d",&t);
     while(t--)
     {
@@ -37,7 +37,7 @@ int main()
                 j2=end;
             }
         }
-        printf("Case %d:\n",s++);
+        printf("Case %d:\n",kase++);
         printf("%d %d %d\n",maxu,j1+1,j2+1);
         if(t!=0)
           cout<<endl;
