@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
- int n,m,bu;
+ int n,m,bu,o;
  int xq,yq,xm,ym;
  int i,j,kk;
  int cnt,flag;
