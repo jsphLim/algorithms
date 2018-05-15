@@ -7,7 +7,7 @@ using namespace std;
 const int N = 10005;
 
 int dep[N],siz[N],fa[N],id[N],son[N],val[N],top[N]; //top 最近的重链父节点
-int num;
+int num;//节点数
 vector<int> v[N];
 struct tree
 {
